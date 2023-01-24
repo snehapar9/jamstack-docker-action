@@ -1,3 +1,3 @@
-FROM jamstacktest.azurecr.io/oryx/build:azfunc-jamstack-debian-bullseye-prebake-node16
+FROM mcr.microsoft.com/oryx/build:azfunc-jamstack-debian-bullseye-20221103.1
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["sh", "/entrypoint.sh"]
