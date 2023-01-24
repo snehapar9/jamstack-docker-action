@@ -5,6 +5,10 @@ inputs:
     description: 'Directory location of the application source code'
     required: true
     default: 'Client'
+  username: 
+    required: true
+  password: 
+    required: true    
 runs:
   using: 'docker'
   image: 'Dockerfile'
