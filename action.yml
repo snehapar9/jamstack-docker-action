@@ -14,5 +14,3 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.app-location }}
-    - ${{ inputs.username }} 
-    - ${{ inputs.password }} 
